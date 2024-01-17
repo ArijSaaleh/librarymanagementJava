@@ -3,13 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.arijsaleh.librarysystem;
+
 import com.arijsaleh.librarysystem.Book;
 import java.util.ArrayList;
+
 /**
  *
  * @author arijs
  */
 public class Library {
+
     private String name;
     private String address;
     private ArrayList<Book> books;
@@ -51,13 +54,21 @@ public class Library {
     public void setBooks(ArrayList<Book> books) {
         this.books = books;
     }
-    public void addBook(Book book){
+
+    public void addBook(Book book) {
         this.books.add(book);
     }
-    public void removeBook(Book book){
+
+    public void removeBook(Book book) {
         this.books.remove(book);
     }
-   /* public Book findBook(String title){
-       //this.books.contains(this)
-    }*/
+
+    public Book findBook(String title) {
+        for (Book book : this.books) {
+            if (book.getTitle().equals(title)) {
+                return book;
+            }
+        }
+        return null;
+    }
 }
