@@ -61,5 +61,10 @@ public class Book {
     public String toString() {
         return "Book{" + "title=" + title + ", author=" + author + ", isbn=" + isbn + ", available=" + available + '}';
     }
-    
+    public void borrow(){
+        this.available = false;
+    }
+    public void returnBook(){
+        this.available = true;
+    }
 }
