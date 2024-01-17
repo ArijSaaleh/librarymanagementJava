@@ -4,7 +4,6 @@
  */
 package com.arijsaleh.librarysystem;
 
-import com.arijsaleh.librarysystem.Book;
 import java.util.ArrayList;
 
 /**
