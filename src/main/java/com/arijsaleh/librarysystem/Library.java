@@ -70,4 +70,10 @@ public class Library {
         }
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "Library{" + "name=" + name + ", address=" + address + ", books=" + books + '}';
+    }
+    
 }
