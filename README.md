@@ -51,5 +51,5 @@ This is a basic Library Management System implemented in Java. The system includ
 - A Librarian can check out and check in Books for LibraryMembers.
 - A LibraryMember can borrow and return Books.
 ## Class Diagram 
-![Class Diagram](./src/uml/gloal class diagram.png)
+![Class Diagram](src/main/java/com/arijsaleh/librarysystem/global diagram class.PNG)
 
